@@ -1,6 +1,13 @@
+import { LangAnimation, ProjectList } from ".";
+
 const Projects = () => {
   return (
-    <div>Projects</div>
-  )
-}
-export default Projects
+    <div className="project-inner ">
+      <div className="dark">
+        <ProjectList />
+        <LangAnimation />
+      </div>
+    </div>
+  );
+};
+export default Projects;

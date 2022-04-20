@@ -11,11 +11,12 @@ const Home = () => {
             <div className="col-md-7 home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello World!!
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                <img
+                  src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
+                  style={{ width: 64, paddingLeft: 10, paddingBottom:20 }}
+                  alt="Waving Hand"
+                />
               </h1>
-
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> Mayur Kanade</strong>
