@@ -1,6 +1,12 @@
+import { Resume, Myself, Particle } from ".";
+
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
-export default About
+    <div className="">
+      <Particle />
+      <Myself />
+      <Resume />
+    </div>
+  );
+};
+export default About;

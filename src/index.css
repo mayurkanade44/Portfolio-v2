@@ -32,6 +32,12 @@ button:focus {
   box-shadow: none !important;
 }
 
+.page-section {
+  position: relative !important;
+  padding-top: 70px !important;
+  padding-bottom: 30px !important;
+}
+
 /* --------- */
 /*  Preloader */
 /* --------- */
@@ -413,9 +419,6 @@ button:focus {
   padding: 0 !important;
 }
 
-.blockquote-footer {
-  color: #a588c0 !important;
-}
 /* --------- */
 /* Projects */
 /* --------- */
@@ -606,7 +609,7 @@ button:focus {
 .about-activity {
   list-style: none !important;
   text-align: left !important;
-  padding-left: 1px !important;
+  padding-left: 5px !important;
 }
 
 @media (max-width: 767px) {
