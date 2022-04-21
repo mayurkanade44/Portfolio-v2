@@ -4,6 +4,7 @@ import Home from "./Home";
 import LangAnimation from "./LangAnimation";
 import Navbar from "./Navbar";
 import Particle from "./Particle";
+import ProjectCard from "./ProjectCard";
 import ProjectList from "./ProjectList";
 import Projects from "./Projects";
 import Typewriter from "./Typewriter";
@@ -18,4 +19,5 @@ export {
   Typewriter,
   LangAnimation,
   ProjectList,
+  ProjectCard,
 };
