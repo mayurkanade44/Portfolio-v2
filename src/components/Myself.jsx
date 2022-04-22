@@ -1,17 +1,13 @@
 import about from "../images/about.png";
 import arrow from "../images/arrow.png";
+import {Heading} from '.'
 
 const Myself = () => {
   return (
     <div className="container about-section">
-      <div className="row justify-content-center pb-1">
+      <Heading title="About Me" subTitle="Little bit about my 30 years rotation to sun" />
+      <div className="row justify-content-center py-1">
         <div className="col-md-6 py-1">
-          <h1
-            className="text-center"
-            style={{ fontSize: "2.1em", paddingBottom: "20px" }}
-          >
-            Know Who <strong className="purple">I'M</strong>
-          </h1>
           <div className="card quote-card-view">
             <div className="card-body">
               <blockquote className="blockquote mb-0">

@@ -1,15 +1,13 @@
+import { Heading } from ".";
 import { language } from "./utils";
 
 const LangAnimation = () => {
   return (
     <div className="">
-      <h1 className="project-heading">
-        <strong className="purple">Skills</strong>
-      </h1>
-      <div className="heading-underline" />
-      <p style={{ color: "white" }}>
-        Professional languages & frameworks that i have used in my projects
-      </p>
+      <Heading
+        title="Skills"
+        subTitle="Professional languages &amp; frameworks that i have used in my projects"
+      />
       <div className="carousel-parent position-relative">
         <div className="gallery">
           {language.map((item, index) => {

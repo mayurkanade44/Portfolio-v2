@@ -1,5 +1,6 @@
 import About from "./About";
 import Contact from "./Contact";
+import Heading from "./Heading";
 import Home from "./Home";
 import LangAnimation from "./LangAnimation";
 import Myself from "./Myself";
@@ -10,6 +11,7 @@ import ProjectList from "./ProjectList";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Typewriter from "./Typewriter";
+
 
 
 export {
@@ -25,4 +27,5 @@ export {
   ProjectCard,
   Resume,
   Myself,
+  Heading,
 };
