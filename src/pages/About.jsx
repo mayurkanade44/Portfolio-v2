@@ -2,7 +2,7 @@ import { Resume, Myself, Particle } from "../components";
 
 const About = () => {
   return (
-    <div className="">
+    <div>
       <Particle />
       <Myself />
       <Resume />

@@ -1,5 +1,5 @@
 import { Home, Projects, About, Contact } from "./pages";
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 
 import {
   BrowserRouter as Router,
@@ -19,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

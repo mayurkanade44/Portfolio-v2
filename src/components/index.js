@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Heading from "./Heading";
 import LangAnimation from "./LangAnimation";
 import Myself from "./Myself";
@@ -8,6 +9,7 @@ import ProjectList from "./ProjectList";
 import Resume from "./Resume";
 import Socialicons from "./Socialicons";
 import Typewriter from "./Typewriter";
+
 
 
 
@@ -23,4 +25,5 @@ export {
   Myself,
   Heading,
   Socialicons,
+  Footer,
 };
