@@ -1,5 +1,6 @@
 import homeLogo from "../images/home-main.svg";
-import { Particle, Typewriter } from "../components";
+import { Particle, Typewriter, Socialicons } from "../components";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
                 Hello World!!
                 <img
                   src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
-                  style={{ width: 64, paddingLeft: 10, paddingBottom:20 }}
+                  style={{ width: 64, paddingLeft: 10, paddingBottom: 20 }}
                   alt="Waving Hand"
                 />
               </h1>
@@ -24,6 +25,17 @@ const Home = () => {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Typewriter />
+              </div>
+              <div className="row">
+                <div className="col-md-4">
+                  <Link to="/contact" className="nav-link">
+                    <div className="btn-quote btn-outline-dark">
+                      <span>Hire Me</span>
+                      <div className="dot"></div>
+                    </div>
+                  </Link>
+                </div>
+                <Socialicons />
               </div>
             </div>
 
