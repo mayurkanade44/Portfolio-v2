@@ -1,4 +1,4 @@
-import { Resume, Myself, Particle } from ".";
+import { Resume, Myself, Particle } from "../components";
 
 const About = () => {
   return (

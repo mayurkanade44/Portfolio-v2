@@ -1,4 +1,6 @@
-import { Home, Navbar, Projects, About, Contact } from "./components";
+import { Home, Projects, About, Contact } from "./pages";
+import { Navbar } from "./components";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -9,7 +11,7 @@ import {
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />

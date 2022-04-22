@@ -1,5 +1,5 @@
 import homeLogo from "../images/home-main.svg";
-import { Particle, Typewriter } from ".";
+import { Particle, Typewriter } from "../components";
 
 const Home = () => {
   return (

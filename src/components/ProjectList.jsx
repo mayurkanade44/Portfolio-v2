@@ -1,4 +1,4 @@
-import {ProjectCard, Heading} from "."
+import { ProjectCard, Heading } from ".";
 import { projects } from "./utils";
 
 const ProjectList = () => {

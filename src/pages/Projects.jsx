@@ -1,4 +1,4 @@
-import { LangAnimation, ProjectList } from ".";
+import { LangAnimation, ProjectList } from "../components";
 
 const Projects = () => {
   return (
