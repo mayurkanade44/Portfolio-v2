@@ -217,12 +217,11 @@ button:focus {
 }
 
 .home-section {
-  height: 93.5vh;
   position: relative;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 10px !important;
 }
 
 .home-content {
@@ -518,6 +517,14 @@ button:focus {
   overflow: hidden;
 }
 
+.project-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+  text-align: center;
+}
+
 .projects-modal {
   position: absolute;
   width: 100%;
@@ -597,11 +604,9 @@ button:focus {
 /*============ About  ============*/
 
 .about-section {
-  height: 90vh;
   position: relative !important;
   padding-top: 85px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
