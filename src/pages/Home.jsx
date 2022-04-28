@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section>
-      <div className="container-fluid home-section" id="home">
+      <div className="container-fluid home-section">
         <Particle />
         <div className="container home-content">
           <div className="row">
@@ -23,7 +23,7 @@ const Home = () => {
                 <strong className="main-name"> Mayur Kanade</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 44, textAlign: "left" }}>
                 <Typewriter />
               </div>
               <div className="row">
@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-5" style={{ paddingBottom: 20 }}>
+            <div className="col-md-5" style={{ paddingBottom: 5 }}>
               <img
                 src={homeLogo}
                 alt="home pic"

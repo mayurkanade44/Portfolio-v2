@@ -6,7 +6,7 @@ import linkedin from "../images/linkedin.png";
 const Socialicons = () => {
   return (
     <div className="row">
-      <div className="col-md-1 social-icons">
+      <div className="col-1 social-icons">
         <a
           href="https://github.com/mayurkanade44"
           target="_blank"
@@ -15,12 +15,12 @@ const Socialicons = () => {
           <img src={github} alt="" id="github" />
         </a>
       </div>
-      <div className="col-md-1 social-icons">
+      <div className="col-1 social-icons">
         <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
           <img src={linkedin} alt="" id="linkedin" />
         </a>
       </div>
-      <div className="col-md-1 social-icons">
+      <div className="col-1 social-icons">
         <a
           href="https://twitter.com/redkopmayur"
           target="_blank"
@@ -30,7 +30,7 @@ const Socialicons = () => {
         </a>
       </div>
 
-      <div className="col-md-1 social-icons">
+      <div className="col-1 social-icons">
         <a
           href="https://www.instagram.com/the_red_kop/"
           target="_blank"

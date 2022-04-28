@@ -17,7 +17,6 @@ const Contact = () => {
                   id="contact-form"
                   method="POST"
                   action=""
-                  accept-charset="UTF-8"
                 >
                   <div className="controls">
                     <div className="form-group">
@@ -53,7 +52,6 @@ const Contact = () => {
                     <button
                       type="submit"
                       className="btn btn-primary"
-                      onclick="sendMail()"
                       value="Send"
                     >
                       SEND MESSAGE
