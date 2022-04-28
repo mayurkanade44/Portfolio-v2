@@ -35,10 +35,11 @@ const Home = () => {
                     </div>
                   </Link>
                 </div>
-                <Socialicons />
+                <div className="col-md-8">
+                  <Socialicons />
+                </div>
               </div>
             </div>
-
             <div className="col-md-5" style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}

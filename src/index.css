@@ -350,8 +350,7 @@ button:focus {
 
 .social-icons {
   display: inline-block !important;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 6px 70px 0px 10px;
 }
 
 .icon-colour {
@@ -537,7 +536,7 @@ button:focus {
     rgb(0, 3, 7) 95%
   );
   display: grid;
-  
+
   padding: 10px;
   transition: 0.3s;
 }
@@ -549,8 +548,6 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(77, 183, 193, 0.64) !important;
 }
 
-
-
 .card-title {
   text-align: center;
   color: #1ebba3;
@@ -560,7 +557,6 @@ button:focus {
 .card-body {
   padding: 5px !important;
 }
-
 
 .card-img-top {
   padding: 15px 15px 8px 15px !important;
@@ -598,8 +594,6 @@ button:focus {
 .card-text {
   text-align: left;
 }
-
-
 
 /*============ About  ============*/
 
@@ -712,4 +706,94 @@ button:focus {
   }
 }
 
+/*============ Contact  ============*/
 
+.contact-inner {
+  position: relative; /* Change to relative to remove fixed style. */
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  background-image: url("./images/contact1.jpg");
+}
+
+.icon-group {
+  margin-bottom: 2.5rem;
+}
+
+#contact a {
+  color: white;
+  margin: 1rem 1rem 1rem 0;
+}
+
+#contact a:hover {
+  color: #1ebba3;
+}
+
+#success {
+  padding-left: 18px;
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.brand-logo {
+  height: 100px;
+  width: 100px;
+  background: url("./images/4048.png");
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 40%;
+  margin-bottom: 15px;
+}
+
+.contact-card {
+  position: relative;
+  width: 30%;
+  border-radius: 20px;
+  padding: 15px 15px 15px 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 8px 8px 20px rgba(100, 201, 193, 0.808);
+}
+
+label {
+  color: black;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  background: #ecf0f3;
+  margin: 8px;
+  box-shadow: inset 6px 5px 6px #a8abad, inset -6px -6px 6px white;
+}
+
+button {
+  margin: 15px 0 0 8px;
+  width: 100%;
+}
+
+.column-card {
+  display: flex;
+  justify-content: center;
+}
+
+/*============ BOOTSTRAP BREAK POINTS ============*/
+
+@media (max-width: 780px) {
+  .contact-card {
+    width: 70%;
+    border-radius: 20px;
+    padding-right: 15px;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px black, -10px -10px 13px black;
+  }
+}
