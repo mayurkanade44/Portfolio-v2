@@ -1,6 +1,28 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { Heading, Socialicons } from "../components";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="contact-inner">
       <div className="dark">
@@ -13,15 +35,10 @@ const Contact = () => {
             <div className="card contact-card">
               <div className="card-body mb-2">
                 <div className="brand-logo"></div>
-                <form
-                  id="contact-form"
-                  method="POST"
-                  action=""
-                >
+                <form id="contact-form" ref={form} onSubmit={sendEmail}>
                   <div className="controls">
                     <div className="form-group">
                       <input
-                        id="form_name"
                         type="text"
                         name="from_name"
                         className="form-control"
@@ -31,7 +48,6 @@ const Contact = () => {
                     </div>
                     <div className="form-group">
                       <input
-                        id="form_email"
                         type="email"
                         name="from_email"
                         className="form-control"
@@ -41,7 +57,6 @@ const Contact = () => {
                     </div>
                     <div className="form-group">
                       <textarea
-                        id="form_message"
                         name="message"
                         className="form-control"
                         placeholder="Please be nice ;)"
