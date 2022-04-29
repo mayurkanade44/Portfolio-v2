@@ -785,6 +785,10 @@ button {
   justify-content: center;
 }
 
+.Toastify__toast {
+  text-transform: capitalize;
+}
+
 /*============ BOOTSTRAP BREAK POINTS ============*/
 
 @media (max-width: 780px) {
@@ -796,3 +800,5 @@ button {
     box-shadow: 14px 14px 20px black, -10px -10px 13px black;
   }
 }
+
+

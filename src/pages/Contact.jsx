@@ -1,9 +1,15 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Heading, Socialicons } from "../components";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const form = useRef();
+  const [values, setValues] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,13 +22,18 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          if (result.text === "OK") {
+            toast.success("Thank You");
+            setValues({ name: "", email: "", message: "" });
+          }
         },
         (error) => {
+          toast.error("There was some problem. Try again later");
           console.log(error.text);
         }
       );
   };
+
   return (
     <div className="contact-inner">
       <div className="dark">
@@ -44,6 +55,10 @@ const Contact = () => {
                         className="form-control"
                         placeholder="Your Name"
                         required="required"
+                        value={values.name}
+                        onChange={(e) =>
+                          setValues({ ...values, name: e.target.value })
+                        }
                       />
                     </div>
                     <div className="form-group">
@@ -53,6 +68,10 @@ const Contact = () => {
                         className="form-control"
                         placeholder="xyz@test.com"
                         required="required"
+                        value={values.email}
+                        onChange={(e) =>
+                          setValues({ ...values, email: e.target.value })
+                        }
                       />
                     </div>
                     <div className="form-group">
@@ -62,6 +81,10 @@ const Contact = () => {
                         placeholder="Please be nice ;)"
                         rows="4"
                         required="required"
+                        value={values.message}
+                        onChange={(e) =>
+                          setValues({ ...values, message: e.target.value })
+                        }
                       ></textarea>
                     </div>
                     <button

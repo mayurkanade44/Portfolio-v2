@@ -1,5 +1,7 @@
 import { Home, Projects, About, Contact } from "./pages";
 import { Navbar, Footer } from "./components";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import {
   BrowserRouter as Router,
@@ -19,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <ToastContainer position="top-center" autoClose={3000} />
       <Footer />
     </Router>
   );
