@@ -97,7 +97,7 @@ const Contact = () => {
                   </div>
                 </form>
               </div>
-              <Socialicons />
+              <Socialicons justify="d-flex justify-content-around" />
             </div>
           </div>
         </div>

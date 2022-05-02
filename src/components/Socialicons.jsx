@@ -3,9 +3,9 @@ import github from "../images/github.png";
 import insta from "../images/instagram.png";
 import linkedin from "../images/linkedin.png";
 
-const Socialicons = () => {
+const Socialicons = ({ justify }) => {
   return (
-    <div className="row">
+    <div className={`row ${justify}`}>
       <div className="col-1 social-icons">
         <a
           href="https://github.com/mayurkanade44"

@@ -37,6 +37,12 @@ html {
   letter-spacing: 3px;
 }
 
+.blue {
+  color: #70eaf0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
 button:focus {
   box-shadow: none !important;
 }
