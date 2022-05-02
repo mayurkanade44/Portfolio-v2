@@ -1,4 +1,4 @@
-import about from "../images/about.png";
+import profile from "../images/profile.jpg";
 import arrow from "../images/arrow.png";
 import { Heading } from ".";
 
@@ -40,11 +40,11 @@ const Myself = () => {
                   <br />
                   Apart from coding, i love exploring different places and go
                   for hikes, till now i have done 4 Himalayan, 30+ Sahyadri
-                  treks &amp; travelled across India which
-                  eventually helped me with communication, better time management,
-                  teamwork and interaction with a diverse group of people. I am
-                  huge fan of Sachin Tendulakr, Liverpool FC, Ferrari &amp;
-                  Roger Federer. Some other activities that I love to do!!
+                  treks &amp; travelled across India which eventually helped me
+                  with communication, better time management, teamwork and
+                  interaction with a diverse group of people. I am huge fan of
+                  Sachin Tendulakr, Liverpool FC, Ferrari &amp; Roger Federer.
+                  Some other activities that I love to do!!
                 </p>
                 <ul>
                   <li className="about-activity">
@@ -65,9 +65,8 @@ const Myself = () => {
           className="col-md-5 about-img"
           style={{ paddingTop: "40px", paddingBottom: "30px" }}
         >
-          <img src={about} alt="about" className="img-fluid" />
+          <img src={profile} alt="about" className="img-fluid" style={{maxHeight:650}} />
         </div>
-        <div className="col-md-12">Mayur</div>
       </div>
     </div>
   );

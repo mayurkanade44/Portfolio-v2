@@ -652,6 +652,10 @@ button:focus {
   padding-left: 5px !important;
 }
 
+.profile-img {
+  height: 250px;
+}
+
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
