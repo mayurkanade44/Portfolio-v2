@@ -9,6 +9,7 @@ import jr from "../images/jr.png";
 import portfolio from "../images/portfolio.png";
 import quiz from "../images/quiz.png";
 import covid from "../images/covid19.png";
+import contract from "../images/contract.png";
 
 export const language = [
   {
@@ -41,12 +42,12 @@ export const language = [
 export const projects = [
   {
     id: 1,
-    img: cal,
-    title: "Jersey Republic",
+    img: contract,
+    title: "Contract QR",
     description:
-      "React and Github api based fully responsive site, finds the details of github users. Fustions chart library is used to get 2D and 3D charts.",
-    website: "https://github.com/",
-    github: "https://github.com/",
+      "Contract-QR is MERN stack web app. App used by Express Pesticides Pvt Ltd to create a pest control contract and service cards for clients. Each service card has unique QR code, which helps service operator to quickly & easily update the status after the service.",
+    website: "https://contractqr.herokuapp.com",
+    github: "https://github.com/mayurkanade44/Contract-QR",
   },
   {
     id: 2,

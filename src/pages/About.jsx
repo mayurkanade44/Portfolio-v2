@@ -1,11 +1,10 @@
-import { Resume, Myself, Particle } from "../components";
+import { Myself, Particle } from "../components";
 
 const About = () => {
   return (
     <div>
       <Particle />
       <Myself />
-      <Resume />
     </div>
   );
 };

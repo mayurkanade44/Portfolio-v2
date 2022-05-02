@@ -1,6 +1,7 @@
 import homeLogo from "../images/home-main.svg";
 import { Particle, Typewriter, Socialicons } from "../components";
 import { Link } from "react-router-dom";
+import about from "../images/about.png";
 
 const Home = () => {
   return (
@@ -22,11 +23,10 @@ const Home = () => {
                 I'M
                 <strong className="main-name"> Mayur Kanade</strong>
               </h1>
-
               <div style={{ padding: 44, textAlign: "left" }}>
                 <Typewriter />
               </div>
-              <div className="row">
+              <div className="row mt-5">
                 <div className="col-md-4">
                   <Link to="/contact" className="nav-link">
                     <div className="btn-quote btn-outline-dark">
@@ -40,9 +40,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-5" style={{ paddingBottom: 5 }}>
+            <div className="col-md-5" style={{paddingTop:90}}>
               <img
-                src={homeLogo}
+                src={about}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
