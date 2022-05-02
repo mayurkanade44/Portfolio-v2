@@ -7,8 +7,7 @@ import node from "../images/nod.png";
 import cal from "../images/calories.png";
 import jr from "../images/jr.png";
 import portfolio from "../images/portfolio.png";
-import quiz from "../images/quiz.png";
-import covid from "../images/covid19.png";
+import cbdp from "../images/CBDP.png";
 import contract from "../images/contract.png";
 
 export const language = [
@@ -45,43 +44,43 @@ export const projects = [
     img: contract,
     title: "Contract QR",
     description:
-      "Contract-QR is MERN stack web app. App used by Express Pesticides Pvt Ltd to create a pest control contract and service cards for clients. Each service card has unique QR code, which helps service operator to quickly & easily update the status after the service.",
+      "Contract-QR is MERN stack web app, used by Express Pesticides Pvt Ltd to create a pest control contract and service cards for clients. Each service card has unique QR code, which helps service operator to quickly & easily update the status after the service.",
     website: "https://contractqr.herokuapp.com",
     github: "https://github.com/mayurkanade44/Contract-QR",
   },
   {
     id: 2,
-    img: jr,
-    title: "Calories Monitor",
+    img: cbdp,
+    title: "CBDP",
     description:
-      "React and Github api based fully responsive site, finds the details of github users. Fustions chart library is used to get 2D and 3D charts.",
-    website: "https://github.com/",
-    github: "https://github.com/",
+      "CBDP is Cloud Based Documents Portal made with React & Django. It is used by Express Pesticides Pvt Ltd for sending MSDS, TC & SOP documents of various pest services to clients with inbuilt emailing function.",
+    website: "http://cbdp.herokuapp.com/",
+    github: "https://github.com/mayurkanade44/CBDP",
   },
   {
     id: 3,
-    img: covid,
-    title: "Github User Finder",
+    img: cal,
+    title: "Calories Monitor",
     description:
-      "React and Github api based fully responsive site, finds the details of github users. Fustions chart library is used to get 2D and 3D charts.",
-    website: "https://github.com/",
-    github: "https://github.com/",
+      "Calories Monitor is help you to keep track of your daily calories. Site made with React frontend and Django backend API hosted on heroku. JWT is used for authentication and authorization.",
+    website: "https://calories-monitor.herokuapp.com/",
+    github: "https://github.com/mayurkanade44/Calories-Monitor",
   },
   {
     id: 4,
-    img: quiz,
-    title: "Contract QR",
+    img: jr,
+    title: "Jersey Republic",
     description:
-      "React and Github api based fully responsive site, finds the details of github users. Fustions chart library is used to get 2D and 3D charts.",
-    website: "https://github.com/",
-    github: "https://github.com/",
+      "Small scale e-commerce fully responsive websites for football jerseys, hosted on Netlify, made with React, Bootstrap, serverless API using Airtable and Netlify CLI.",
+    website: "https://jersey-republic.netlify.app/",
+    github: "https://github.com/mayurkanade44/Jersey-Republic",
   },
   {
     id: 5,
     img: portfolio,
-    title: "CBDP",
+    title: "Portfolio",
     description:
-      "React and Github api based fully responsive site, finds the details of github users. Fustions chart library is used to get 2D and 3D charts.",
+      "React based full responsive portfolio. Used Bootstrap 5 for CSS, it has multiple pages routed through React-Router-6.",
     website: "https://github.com/",
     github: "https://github.com/",
   },

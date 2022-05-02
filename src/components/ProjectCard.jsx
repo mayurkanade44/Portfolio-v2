@@ -31,6 +31,21 @@ const ProjectCard = ({ img, title, description, website, github }) => {
             </div>
           </div>
           <p className="card-text text-info my-3">{description}</p>
+          {title === "Portfolio" && (
+            <p className="card-text text-info">
+              Previous version of
+              <a
+                style={{ textDecoration: "none", color: "yellow" }}
+                href="https://mayur-kanade-v1.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Portfolio{" "}
+              </a>
+              made with HTML, Bootstrap-4, &amp; JS.
+            </p>
+          )}
         </div>
       </div>
     </div>
