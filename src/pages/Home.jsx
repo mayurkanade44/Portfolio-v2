@@ -26,8 +26,8 @@ const Home = () => {
               <div className="typewriter">
                 <Typewriter />
               </div>
-              <div className="row mt-5 home-btn">
-                <div className="col-md-4">
+              <div className="row mt-5">
+                <div className="col-lg-4">
                   <Link to="/contact" className="nav-link">
                     <div className="btn-quote btn-outline-dark">
                       <span>Hire Me</span>
@@ -35,7 +35,7 @@ const Home = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="col-md-8">
+                <div className="col-lg-6">
                   <Socialicons />
                 </div>
               </div>
