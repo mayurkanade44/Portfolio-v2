@@ -14,7 +14,7 @@ const Myself = () => {
           <div className="card quote-card-view">
             <div className="card-body">
               <blockquote className="blockquote mb-0">
-                <p style={{ textAlign: "justify" }}>
+                <p style={{ textAlign: "justify", marginBottom: 0 }}>
                   Hello, I am
                   <span className="text-warning"> Mayur Kanade, </span>
                   Junior Developer from{" "}
@@ -24,48 +24,66 @@ const Myself = () => {
                   understanding of
                   <span className="blue">
                     {" "}
-                    React framework, Node Js, Python &amp; Django framework{" "}
+                    React framework, Node Js, &amp; Python,{" "}
                   </span>
                   with interest in web and software development. Started my
-                  career as a desktop engineer then in to application support
-                  and now from last one year working as a junior web developer.
+                  career as a desktop engineer then moved in to application
+                  support and now from last one year working as a junior web
+                  developer.
                   <br />
                   <br />
-                  My field of Interest's are building new Web App and Products
-                  and also in areas related to Blockchain and Natural Launguage
-                  Processing. Whenever possible, I also apply my knowledge for
-                  Scrapping Website, Automating regular tasks and try to learn
-                  new Frameworks like <span className="blue"> Next.js</span>
+                  My field of Interest's are building new
+                  <span className="blue"> Web App and Products </span>
+                  and also in areas related to{" "}
+                  <span className="blue">
+                    Blockchain and Natural Launguage Processing.
+                  </span>{" "}
+                  Whenever possible, I also apply my knowledge for Scrapping
+                  Website, Automating regular tasks and learning new tech like{" "}
+                  <span className="blue"> Next.js &amp; Solidity.</span>
                   <br />
                   <br />
-                  Apart from coding, i love exploring different places and go
-                  for hikes, till now i have done 4 Himalayan, 30+ Sahyadri
-                  treks &amp; travelled across India which eventually helped me
-                  with communication, better time management, teamwork and
-                  interaction with a diverse group of people. I am huge fan of
-                  Sachin Tendulakr, Liverpool FC, Ferrari &amp; Roger Federer.
-                  Some other activities that I love to do!!
+                  Apart from coding, some other activities that I love to do!!
                 </p>
-                <ul>
+                <ul className="my-3">
                   <li className="about-activity">
                     <img src={arrow} alt="right arrow" style={{ height: 25 }} />
-                    <span className="ps-3">Trekking &amp; Travelling</span>
+                    <span className="ps-3 text-warning">
+                      Trekking &amp; Travelling
+                    </span>
                   </li>
                   <li className="about-activity">
                     <img src={arrow} alt="right arrow" style={{ height: 25 }} />
-                    <span className="ps-3">Sports</span>
+                    <span className="ps-3 text-warning">Sports</span>
                   </li>
                 </ul>
+                <p>
+                  I love exploring different places and go for hikes, till now i
+                  have done{" "}
+                  <span className="blue">
+                    {" "}
+                    4 Himalayan &amp; 30+ Sahyadri treks.
+                  </span>{" "}
+                  I have travelled across India which eventually helped me with
+                  communication, better time management, teamwork and
+                  interacting with a diverse group of people. I am huge fan of
+                  Sachin Tendulakr, Liverpool FC, Ferrari &amp; Roger Federer.
+                </p>
               </blockquote>
             </div>
           </div>
         </div>
         <div className="col-md-1"></div>
         <div
-          className="col-md-5 about-img"
+          className="col-md-5 about-img text-center"
           style={{ paddingTop: "40px", paddingBottom: "30px" }}
         >
-          <img src={profile} alt="about" className="img-fluid" style={{maxHeight:650}} />
+          <img
+            src={profile}
+            alt="about"
+            className="img-fluid"
+            style={{ maxHeight: 750 }}
+          />
         </div>
       </div>
     </div>

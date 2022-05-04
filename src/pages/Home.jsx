@@ -11,7 +11,7 @@ const Home = () => {
         <div className="container home-content">
           <div className="row">
             <div className="col-md-7 home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 className="heading">
                 Hello World!!
                 <img
                   src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-5" style={{paddingTop:90}}>
+            <div className="col-md-5" style={{ paddingTop: 90 }}>
               <img
                 src={about}
                 alt="home pic"
