@@ -14,8 +14,8 @@ const Home = () => {
               <h1 className="heading">
                 Hello World!!
                 <img
+                  className="waving-hand"
                   src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
-                  style={{ width: 64, paddingLeft: 10, paddingBottom: 20 }}
                   alt="Waving Hand"
                 />
               </h1>
@@ -23,10 +23,10 @@ const Home = () => {
                 I'M
                 <strong className="main-name"> Mayur Kanade</strong>
               </h1>
-              <div style={{ padding: 44, textAlign: "left" }}>
+              <div className="typewriter">
                 <Typewriter />
               </div>
-              <div className="row mt-5">
+              <div className="row mt-5 home-btn">
                 <div className="col-md-4">
                   <Link to="/contact" className="nav-link">
                     <div className="btn-quote btn-outline-dark">
@@ -40,11 +40,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-5" style={{ paddingTop: 90 }}>
+            <div className="col-md-5">
               <img
                 src={about}
                 alt="home pic"
-                className="img-fluid"
+                className="img-fluid home-avtar"
                 style={{ maxHeight: "450px" }}
               />
             </div>

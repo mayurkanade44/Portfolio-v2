@@ -8,7 +8,7 @@ const Typewriter = () => {
           "MERN Stack Developer",
           "Love Using Python",
           "Sport Enthusiast",
-          "Nomad..."
+          "Wanderer....",
         ],
         autoStart: true,
         loop: true,

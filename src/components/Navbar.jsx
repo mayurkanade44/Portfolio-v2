@@ -21,11 +21,11 @@ const Navbar = () => {
           navbar ? "sticky" : "navbar"
         }`}
       >
-        <div className="container">
+        <div className="container ">
           <Link to="/" className="navbar-brand" >
             <img
               src={logo}
-              className="img-fluid"
+              className="logo"
               alt="Mayur"
               style={{ width: 50 }}
             />

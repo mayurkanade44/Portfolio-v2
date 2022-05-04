@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="col-md-6 footer-copywright">
           <h3 >© {new Date().getFullYear()} Mayur Kanade</h3>
         </div>
-        <div className="col-md-6 footer-copywright">
+        <div className="col-md-6 footer-copywright-1">
           <h3 >All Rights Reserved</h3>
         </div>
       </div>
