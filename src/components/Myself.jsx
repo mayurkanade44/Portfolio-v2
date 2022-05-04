@@ -78,12 +78,7 @@ const Myself = () => {
           className="col-md-5 about-img text-center"
           style={{ paddingTop: "40px", paddingBottom: "30px" }}
         >
-          <img
-            src={profile}
-            alt="about"
-            className="img-fluid profile-img"
-            
-          />
+          <img src={profile} alt="about" className="img-fluid profile-img" />
         </div>
       </div>
     </div>
