@@ -81,8 +81,8 @@ const Myself = () => {
           <img
             src={profile}
             alt="about"
-            className="img-fluid"
-            style={{ maxHeight: 750 }}
+            className="img-fluid profile-img"
+            
           />
         </div>
       </div>

@@ -673,12 +673,21 @@ button:focus {
 }
 
 .profile-img {
-  height: 250px;
+  height: 770px;
 }
 
 @media (max-width: 767px) {
   .about-img {
-    padding-top: 0 !important;
+    padding: 0 !important;
+  }
+  .about-section {
+    padding-bottom: 0px !important;
+  }
+  .blockquote {
+    font-size: 15px !important;
+  }
+  .profile-img {
+    height: 300px;
   }
 }
 
@@ -841,12 +850,13 @@ button {
 
 /*============ BOOTSTRAP BREAK POINTS ============*/
 
-@media (max-width: 780px) {
+@media (max-width: 500px) {
   .contact-card {
-    width: 70%;
-    border-radius: 20px;
-    padding-right: 15px;
-    background: #ecf0f3;
-    box-shadow: 14px 14px 20px black, -10px -10px 13px black;
+    width: 100% !important;
+  }
+}
+@media (min-width: 500px) and (max-width: 1024px) {
+  .contact-card {
+    width: 50% !important;
   }
 }
