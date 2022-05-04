@@ -16,19 +16,20 @@ const ProjectCard = ({ img, title, description, website, github }) => {
       <div className="projects-modal">
         <div className="">
           <div className="row my-2">
-            <div className="col-md-8">
+            <div className="col-7">
               <h5 className="card-title">{title}</h5>
             </div>
-            <div className="col-md-2">
+            <div className="col-2">
               <a href={website} target="_blank" rel="noreferrer">
                 <img src={internet} alt="internet" style={{ height: 35 }} />
               </a>
             </div>
-            <div className="col-md-2">
+            <div className="col-2">
               <a href={github} target="_blank" rel="noreferrer">
                 <img src={git} alt="github" style={{ height: 30 }} />
               </a>
             </div>
+            
           </div>
           <p className="card-text text-info my-3">{description}</p>
           {title === "Portfolio" && (

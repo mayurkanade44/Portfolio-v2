@@ -613,6 +613,13 @@ button:focus {
   text-align: left;
 }
 
+@media (max-width: 767px) {
+  .card-text {
+    text-align: left;
+    font-size: 14px !important;
+  }
+}
+
 /*============ About  ============*/
 
 .about-section {
@@ -678,14 +685,14 @@ button:focus {
 /*============ Language Animation  ============*/
 
 .carousel-parent {
-  height: 70vh;
+  height: 60vh;
   color: white;
   display: flex;
   justify-content: center;
 }
 
 .gallery {
-  margin-top: 80px;
+  margin-top: 50px;
   height: 100px;
   width: 100px;
   position: relative;
@@ -715,7 +722,7 @@ button:focus {
 .test:hover {
   cursor: pointer;
   transition: all 1s;
-  transform: scale(1.4);
+  transform: scale(1.3);
 }
 
 @keyframes gallery {
@@ -725,6 +732,26 @@ button:focus {
 
   100% {
     transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .caro-img {
+    height: 100px;
+    -webkit-box-reflect: below 15px
+      linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+  }
+  .gallery span {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: rotateY(calc(var(--i) * 72deg)) translateZ(120px);
+  }
+  .carousel-parent {
+    height: 50vh !important;
   }
 }
 
