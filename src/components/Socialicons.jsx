@@ -12,12 +12,12 @@ const Socialicons = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={github} alt="" id="github" />
+          <img src={github} alt="github" id="github" />
         </a>
       </div>
       <div className="col-1 social-icons">
         <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-          <img src={linkedin} alt="" id="linkedin" />
+          <img src={linkedin} alt="linkedin" id="linkedin" />
         </a>
       </div>
       <div className="col-1 social-icons">
@@ -26,17 +26,17 @@ const Socialicons = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={twitter} alt="" id="twitter" />
+          <img src={twitter} alt="twitter" id="twitter" />
         </a>
       </div>
 
-      <div className="col-1 social-icons">
+      <div className="col-1 social-icons me-1">
         <a
           href="https://www.instagram.com/the_red_kop/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={insta} alt="" id="insta" />
+          <img src={insta} alt="insta" id="insta" />
         </a>
       </div>
     </div>

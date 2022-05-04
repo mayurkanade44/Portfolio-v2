@@ -1,5 +1,5 @@
 import { Home, Projects, About, Contact } from "./pages";
-import { Navbar, Footer } from "./components";
+import { Navbar} from "./components";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -22,7 +22,6 @@ function App() {
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <ToastContainer position="top-center" autoClose={3000} />
-      <Footer />
     </Router>
   );
 }

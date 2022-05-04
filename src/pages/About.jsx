@@ -1,11 +1,12 @@
-import { Myself, Particle } from "../components";
+import { Myself, Particle, Footer } from "../components";
 
 const About = () => {
   return (
-    <div>
+    <>
       <Particle />
       <Myself />
-    </div>
+      <Footer />
+    </>
   );
 };
 export default About;

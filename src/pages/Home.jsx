@@ -1,4 +1,3 @@
-import homeLogo from "../images/home-main.svg";
 import { Particle, Typewriter, Socialicons } from "../components";
 import { Link } from "react-router-dom";
 import about from "../images/about.png";

@@ -281,7 +281,8 @@ button:focus {
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.5rem !important;
+    text-align: center;
+    font-size: 2rem !important;
     padding: 0 !important;
     margin: 0 !important;
     font-weight: 600 !important;
@@ -293,16 +294,16 @@ button:focus {
   }
   .heading,
   .heading-name {
+    text-align: center;
     font-size: 2rem !important;
     padding-left: 20px !important;
     padding-bottom: 5px;
   }
 
   .typewriter {
-    font-size: 2rem !important;
-    padding-left: 20px !important;
-    padding-top: 20px;
+    padding-bottom: 100px;
   }
+
   .waving-hand {
     width: 50px;
   }
@@ -312,7 +313,7 @@ button:focus {
 
   .social-icons {
     display: inline-block !important;
-    padding: 6px 65px 0px 10px !important;
+    padding: 6px 65px 0px 0px !important;
   }
 }
 
@@ -349,24 +350,9 @@ button:focus {
   padding-inline-start: 0 !important;
 }
 
-.home-social-icons:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
-}
-
-.home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
-}
-
 .social-icons {
   display: inline-block !important;
   padding: 6px 70px 0px 10px;
-}
-
-.icon-colour {
-  color: #700c86 !important;
 }
 
 .btn-quote {

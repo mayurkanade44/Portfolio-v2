@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { Heading, Socialicons } from "../components";
+import { Footer, Heading, Socialicons } from "../components";
 import { toast } from "react-toastify";
 
 const Contact = () => {
@@ -102,6 +102,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
