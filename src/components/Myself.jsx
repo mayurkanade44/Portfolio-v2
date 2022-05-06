@@ -36,7 +36,7 @@ const Myself = () => {
                   <span className="blue"> Web App and Products </span>
                   and also in areas related to{" "}
                   <span className="blue">
-                    Blockchain and Natural Launguage Processing.
+                    Blockchain and Natural Language Processing.
                   </span>{" "}
                   Whenever possible, I also apply my knowledge for Scrapping
                   Website, Automating regular tasks and learning new tech like{" "}
@@ -67,7 +67,7 @@ const Myself = () => {
                   I have travelled across India which eventually helped me with
                   communication, better time management, teamwork and
                   interacting with a diverse group of people. I am huge fan of
-                  Sachin Tendulakr, Liverpool FC, Ferrari &amp; Roger Federer.
+                  Sachin Tendulkar, Liverpool FC, Ferrari &amp; Roger Federer.
                 </p>
               </blockquote>
             </div>

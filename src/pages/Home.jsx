@@ -33,7 +33,7 @@ const Home = () => {
                   </div>
                 </Link>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 home-social">
                 <Socialicons />
               </div>
             </div>

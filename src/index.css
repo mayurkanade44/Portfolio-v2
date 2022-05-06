@@ -98,66 +98,28 @@ button:focus {
   border-color: transparent !important;
 }
 
-.navbar-toggler span {
-  display: block !important;
-  background-color: #dbf55b !important;
-  height: 4px !important;
-  width: 27px !important;
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
-  transform: rotate(0deg) !important;
-  left: 0 !important;
-  opacity: 1 !important;
-}
-
 .navbar-toggler:focus,
 .navbar-toggler:active {
   outline: 0 !important;
 }
 
-.navbar-toggler span:nth-child(1),
-.navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
-  transition: transform 0.35s ease-in-out !important;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
-  position: absolute !important;
-  left: 12px !important;
-  top: 10px !important;
-  transform: rotate(135deg) !important;
-  opacity: 0.9 !important;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
-  height: 12px !important;
-  visibility: hidden !important;
-  background-color: transparent !important;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
-  position: absolute !important;
-  left: 12px !important;
-  top: 10px !important;
-  transform: rotate(-135deg) !important;
-  opacity: 0.9 !important;
-}
-
 @media (max-width: 767px) {
+  .mobile-nav {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
   .navbar {
-    padding: 0.2rem 2rem 0.8rem !important;
+    padding: 0.2rem 2rem 0.5rem !important;
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
-  .logo {
-    display: none;
-  }
   .navbar-toggler {
     margin-top: 0;
-    margin-left: 100px;
+    width: 40px !important;
   }
   .nav-link {
     padding: 0.7rem 1rem !important;
@@ -165,9 +127,7 @@ button:focus {
     justify-content: center;
   }
 }
-.navbar-brand {
-  color: rgb(250, 250, 250) !important;
-}
+
 
 .logo {
   height: 2em !important;
@@ -310,10 +270,12 @@ button:focus {
   .home-content {
     padding-top: 2.5rem !important;
   }
-
   .social-icons {
     display: inline-block !important;
     padding: 6px 65px 0px 0px !important;
+  }
+  .home-social {
+    margin-top: 50px;
   }
 }
 
@@ -335,8 +297,6 @@ button:focus {
   font-size: 1.2em !important;
   text-align: left;
 }
-
-
 
 .social-icons {
   display: inline-block !important;

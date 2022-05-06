@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/4048.png";
+import menu from "../images/menu.png";
 
 const Navbar = () => {
   const [expand, setExpanded] = useState(false);
@@ -15,14 +16,14 @@ const Navbar = () => {
   };
   window.addEventListener("scroll", scrollHandler);
   return (
-    <div>
-      <nav
-        className={`navbar navbar-expand-md fixed-top ${
-          navbar ? "sticky" : "navbar"
-        }`}
-      >
-        <div className="container ">
-          <Link to="/" className="navbar-brand" >
+    <nav
+      className={`navbar navbar-expand-md fixed-top ${
+        navbar ? "sticky" : "navbar"
+      }`}
+    >
+      <div className="container">
+        <div className="mobile-nav">
+          <Link to="/" className="navbar-brand">
             <img
               src={logo}
               className="logo"
@@ -38,65 +39,63 @@ const Navbar = () => {
               setExpanded(!expand);
             }}
           >
-            <span></span>
-            <span></span>
-            <span></span>
+            <img src={menu} alt="menu" style={{ width: 38 }} />
           </button>
-          <div
-            className={`navbar-collapse ${!expand ? "collapse" : ""}`}
-            id="navbarNav"
-          >
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <Link
-                  to="/"
-                  className="nav-link"
-                  aria-current="page"
-                  onClick={() => {
-                    setExpanded(false);
-                  }}
-                >
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  to="/projects"
-                  className="nav-link"
-                  onClick={() => {
-                    setExpanded(false);
-                  }}
-                >
-                  Projects
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  to="/about"
-                  className="nav-link"
-                  onClick={() => {
-                    setExpanded(false);
-                  }}
-                >
-                  About
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  to="/contact"
-                  className="nav-link"
-                  onClick={() => {
-                    setExpanded(false);
-                  }}
-                >
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
-      </nav>
-    </div>
+        <div
+          className={`navbar-collapse ${!expand ? "collapse" : ""}`}
+          id="navbarNav"
+        >
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <Link
+                to="/"
+                className="nav-link"
+                aria-current="page"
+                onClick={() => {
+                  setExpanded(false);
+                }}
+              >
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/projects"
+                className="nav-link"
+                onClick={() => {
+                  setExpanded(false);
+                }}
+              >
+                Projects
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/about"
+                className="nav-link"
+                onClick={() => {
+                  setExpanded(false);
+                }}
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/contact"
+                className="nav-link"
+                onClick={() => {
+                  setExpanded(false);
+                }}
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 };
 export default Navbar;
