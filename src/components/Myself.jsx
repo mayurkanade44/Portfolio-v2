@@ -29,7 +29,11 @@ const Myself = () => {
                   with interest in web and software development. Started my
                   career as a desktop engineer then moved in to application
                   support and now from last one year working as a junior web
-                  developer.
+                  developer. Being a self taught developer has given me the
+                  mindset of{" "}
+                  <span className="text-warning">
+                    "I don't know how to do it yet, but I'll figure it out".
+                  </span>
                   <br />
                   <br />
                   My field of Interest's are building new
@@ -60,14 +64,19 @@ const Myself = () => {
                 <p>
                   I love exploring different places and go for hikes, till now i
                   have done{" "}
-                  <span className="blue">
-                    {" "}
+                  <span className="text-warning">
                     4 Himalayan &amp; 30+ Sahyadri treks.
                   </span>{" "}
                   I have travelled across India which eventually helped me with
                   communication, better time management, teamwork and
                   interacting with a diverse group of people. I am huge fan of
-                  Sachin Tendulkar, Liverpool FC, Ferrari &amp; Roger Federer.
+                  Sachin Tendulkar, Liverpool FC, Ferrari &amp; Roger Federer. i
+                  have always believed that sports represent a microscope our
+                  lives and i have taken inspiration from many microscope &amp;
+                  sporting events. Liverpool FC winning the league in 2020
+                  couldnt have come at better time i kept telling myself "After
+                  not winning a league for 30years and loosing by a single point
+                  in last season if they could come back and win it why cant i?"
                 </p>
               </blockquote>
             </div>
