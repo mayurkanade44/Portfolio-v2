@@ -128,7 +128,6 @@ button:focus {
   }
 }
 
-
 .logo {
   height: 2em !important;
   width: 2.5em !important;
@@ -605,7 +604,7 @@ button:focus {
 }
 
 .profile-img {
-  height: 770px;
+  height: auto;
 }
 
 @media (max-width: 767px) {

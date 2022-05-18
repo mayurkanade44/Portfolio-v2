@@ -7,7 +7,7 @@ const Myself = () => {
     <div className="container about-section">
       <Heading
         title="About Me"
-        subTitle="Little bit about my 30 years rotation to sun"
+        subTitle="Little bit about my 30 years of rotation around the sun"
       />
       <div className="row justify-content-center py-1">
         <div className="col-md-6 py-1">
@@ -70,13 +70,14 @@ const Myself = () => {
                   I have travelled across India which eventually helped me with
                   communication, better time management, teamwork and
                   interacting with a diverse group of people. I am huge fan of
-                  Sachin Tendulkar, Liverpool FC, Ferrari &amp; Roger Federer. i
-                  have always believed that sports represent a microscope our
-                  lives and i have taken inspiration from many microscope &amp;
+                  Sachin Tendulkar, Liverpool FC, Ferrari &amp; Roger Federer. I
+                  have always believed that sports represent a microscosm our
+                  lives and i have taken inspiration from many athletes &amp;
                   sporting events. Liverpool FC winning the league in 2020
-                  couldnt have come at better time i kept telling myself "After
-                  not winning a league for 30years and loosing by a single point
-                  in last season if they could come back and win it why cant i?"
+                  couldnt have come at better time, i kept telling myself that "After
+                  not winning a league for 30years and loosing by a point
+                  in previous season if they could come back and win it then why
+                  cant i?"
                 </p>
               </blockquote>
             </div>
