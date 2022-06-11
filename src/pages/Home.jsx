@@ -1,8 +1,20 @@
+import { useEffect } from "react";
 import { Particle, Typewriter, Socialicons } from "../components";
 import { Link } from "react-router-dom";
 import about from "../images/about.png";
 
 const Home = () => {
+  useEffect(() => {
+    const addTitle = () => {
+      if (document.visibilityState === "visible") {
+        document.title = "Mayur Kanade";
+      } else {
+        document.title = "Come Back To Portfolio 🙏";
+      }
+    };
+    document.addEventListener("visibilitychange", addTitle);
+  }, []);
+
   return (
     <div className="container-fluid home-section">
       <Particle />

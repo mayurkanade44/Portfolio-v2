@@ -23,7 +23,7 @@ const Contact = () => {
       .then(
         (result) => {
           if (result.text === "OK") {
-            toast.success("Thank You");
+            toast.success("Thanks!!");
             setValues({ name: "", email: "", message: "" });
           }
         },

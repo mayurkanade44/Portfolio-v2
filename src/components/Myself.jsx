@@ -29,7 +29,8 @@ const Myself = () => {
                   with interest in web and software development. Started my
                   career as a desktop engineer then moved in to application
                   support and now from last one year working as a junior web
-                  developer. Being a self taught developer has given me the
+                  developer. I'm very passionate about improving my development
+                  skills and being a self taught developer has given me the
                   mindset of{" "}
                   <span className="text-warning">
                     "I don't know how to do it yet, but I'll figure it out".
@@ -69,13 +70,16 @@ const Myself = () => {
                   </span>{" "}
                   I have travelled across India which eventually helped me with
                   communication, better time management, teamwork and
-                  interacting with a diverse group of people. I am huge fan of
-                  Sachin Tendulkar, Liverpool FC, Ferrari &amp; Roger Federer. I
-                  have always believed that sports represent a microscosm our
+                  interacting with a diverse group of people.{" "}
+                  <span className="text-warning">
+                    I am huge fan of Sachin Tendulkar, Liverpool FC, Ferrari
+                    &amp; Roger Federer.
+                  </span>{" "}
+                  I have always believed that sports represent a microscosm our
                   lives and i have taken inspiration from many athletes &amp;
                   sporting events. Liverpool FC winning the league in 2020
-                  couldnt have come at better time, i kept telling myself that "After
-                  not winning a league for 30years and loosing by a point
+                  couldnt have come at better time, i kept telling myself that
+                  "After not winning a league for 30years and loosing by a point
                   in previous season if they could come back and win it then why
                   cant i?"
                 </p>
@@ -84,10 +88,7 @@ const Myself = () => {
           </div>
         </div>
         <div className="col-md-1"></div>
-        <div
-          className="col-md-5 about-img text-center"
-          style={{ paddingTop: "40px", paddingBottom: "30px" }}
-        >
+        <div className="col-md-5 d-flex align-items-center about-img text-center">
           <img src={profile} alt="about" className="img-fluid profile-img" />
         </div>
       </div>
